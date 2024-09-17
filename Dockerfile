@@ -23,4 +23,4 @@ RUN pip install -r requirements.txt
 
 # Start the application
 RUN chmod +x app.py
-CMD ["python3","-u", "app.py"]
+CMD ["python3","-u", "uvicorn_serve.py"]
